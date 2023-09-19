@@ -20,7 +20,7 @@ Before you begin, ensure that you have the following:
 2. Build images with the following command:
 
 ```
-    docker-compose biuld
+    docker-compose build
 ```
 
 3. Launch application with the following command:
