@@ -14,11 +14,11 @@ RUN docker-php-ext-configure zip && docker-php-ext-install zip pdo pdo_mysql gd
 # Set the working directory in the container
 WORKDIR /var/www/html
 
-# Copy your Symfony project into the container
-COPY . .
-
 # Install Composer globally
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Copy your Symfony project into the container
+COPY . .
 
 # Install project dependencies using Composer
 RUN composer install
