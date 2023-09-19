@@ -17,13 +17,19 @@ Before you begin, ensure that you have the following:
     cd Test_task_junior_php
 ```
 
-2. Launch application with the following command:
+2. Build images with the following command:
+
+```
+    docker-compose biuld
+```
+
+3. Launch application with the following command:
 
 ```
     docker-compose up -d
 ```
 
-3. Access application in a web browser:
+4. Access application in a web browser:
 
 ```
     http://localhost:5173
