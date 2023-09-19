@@ -1,5 +1,12 @@
 # Junior PHP Test Task
 
+## Prerequisites
+Before you begin, ensure that you have the following:
+
+- Docker installed on your machine.
+
+- Docker Compose installed on your machine. 
+
 ## Getting Started
 
 1. Clone your project repository to your local machine.
